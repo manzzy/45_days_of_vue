@@ -121,3 +121,23 @@ section span.section-indicator {
         text-align: center;
     }
 }
+
+/* Animation */
+@keyframes appear{
+    from {
+        opacity: 0.5;
+        scale: 0.5;
+        /* transform: translateY(20px); */
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+        /* transform: translateY(0); */
+    }
+}
+
+section {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}

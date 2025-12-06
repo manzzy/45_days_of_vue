@@ -1,0 +1,39 @@
+footer {
+    background-color: black;
+    padding: 5em 2.5em;
+    padding-bottom: 2em;
+}
+
+footer .content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em 1em;
+}
+
+footer * {
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.footer-links {
+    display: flex;
+    gap: 3em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-links nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 1em 0;
+    font-size: 12px;
+    opacity: .7;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 3em;
+    
+}
