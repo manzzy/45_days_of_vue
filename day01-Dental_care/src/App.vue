@@ -1,13 +1,15 @@
 <script setup>
+import HomeView from './views/HomeView.vue'
 
 </script>
 
 <template>
   <div>
-    <h1>Test setup is working</h1>
+    <HomeView />
   </div>
 </template>
 
-<style scoped>
-
+<style>
+  /* General Styles */
+  @import url('./assets/styles/general.css');
 </style>
