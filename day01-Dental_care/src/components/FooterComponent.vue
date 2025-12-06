@@ -43,7 +43,7 @@
             </div>
 
             <div class="footer-bottom">
-                &copy; 2024 DentalCare. All rights reserved.
+                &copy; 2025 DentalCare. All rights reserved.
             </div>
         </div>
     </footer>
