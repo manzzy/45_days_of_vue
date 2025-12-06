@@ -16,6 +16,7 @@
 
     <RatingsComponent />
     <BenefitsComponent />
+    <ServicesComponent />
   </div>
 </template>
 
@@ -24,6 +25,7 @@
     import HeroComponent from '../components/HeroComponent.vue'
     import RatingsComponent from '../components/RatingsComponent.vue'
     import BenefitsComponent from '../components/BenefitsComponent.vue'
+    import ServicesComponent from '../components/ServicesComponent.vue'
 </script>
 
 <style scoped>

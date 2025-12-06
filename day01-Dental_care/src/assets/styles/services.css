@@ -1,0 +1,66 @@
+.services {
+    background-color: #f4eff5;
+}
+
+.services .services-header {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.services .tags {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 3em;
+    flex-wrap: wrap;
+}
+
+.services .tags .tag {
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 11px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.services .tags .tag:hover, .services .tags .tag.active {
+    background-color: var(--purple-color);
+    color: white;
+}
+
+.services ul.services-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services ul.services-list li.service-item {
+    display: flex;
+    align-items: stretch;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.services ul.services-list li.service-item .service-card {
+    flex: 2;
+    background-color: white;
+    padding: 2em 2em;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.services ul img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+
+}
