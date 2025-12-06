@@ -15,6 +15,7 @@
     </div>
 
     <RatingsComponent />
+    <BenefitsComponent />
   </div>
 </template>
 
@@ -22,6 +23,7 @@
     import HeaderComponent from '../components/HeaderComponent.vue'
     import HeroComponent from '../components/HeroComponent.vue'
     import RatingsComponent from '../components/RatingsComponent.vue'
+    import BenefitsComponent from '../components/BenefitsComponent.vue'
 </script>
 
 <style scoped>
