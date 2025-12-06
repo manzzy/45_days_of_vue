@@ -13,12 +13,15 @@
       <HeaderComponent />
       <HeroComponent />
     </div>
+
+    <RatingsComponent />
   </div>
 </template>
 
 <script setup>
     import HeaderComponent from '../components/HeaderComponent.vue'
     import HeroComponent from '../components/HeroComponent.vue'
+    import RatingsComponent from '../components/RatingsComponent.vue'
 </script>
 
 <style scoped>

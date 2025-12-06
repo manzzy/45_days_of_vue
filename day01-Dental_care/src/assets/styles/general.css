@@ -85,15 +85,7 @@ body {
     cursor: pointer;
 }
 
-@media screen and (max-width: 640px) {
-    .show-desktop {
-        display: none !important;
-    }
 
-    .show-mobile {
-        display: block;
-    }
-}
 
 section {
     padding: 6.5em 3.5em;
@@ -103,4 +95,29 @@ section {
 section h2 {
     font-size: 2.5em;
     margin-bottom: 0.5em;
+}
+
+section span.section-indicator {
+    text-transform: capitalize;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #bda2c9;
+    margin-bottom: 0.5em;
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+}
+
+@media screen and (max-width: 640px) {
+    .show-desktop {
+        display: none !important;
+    }
+
+    .show-mobile {
+        display: block;
+    }
+
+    section {
+        padding: 4em 1.5em;
+        text-align: center;
+    }
 }
