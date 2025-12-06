@@ -17,6 +17,7 @@
     <RatingsComponent />
     <BenefitsComponent />
     <ServicesComponent />
+    <TestimonialsComponent />
   </div>
 </template>
 
@@ -26,6 +27,7 @@
     import RatingsComponent from '../components/RatingsComponent.vue'
     import BenefitsComponent from '../components/BenefitsComponent.vue'
     import ServicesComponent from '../components/ServicesComponent.vue'
+    import TestimonialsComponent from '../components/TestimonialsComponent.vue'
 </script>
 
 <style scoped>
