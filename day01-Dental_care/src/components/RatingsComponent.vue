@@ -2,35 +2,41 @@
     <section class="ratings">
         <div class="content">
             <ul class="ratings-list">
-                <li class="rating-item">
-                    <span class="tag">For All time we grow</span>
-                    <span class="rating-num">98%</span>
-                    <span class="rating-txt">All Time patient <br />satisfaction rate</span>
+                <li class="rating-item" v-for="rating in ratings" :key="rating.tag">
+                    <span class="tag">{{ rating.tag }}</span>
+                    <span class="rating-num">{{ rating.ratingNum }}</span>
+                    <span class="rating-txt" v-html="rating.ratingTxt.replace(/\n/g, '<br />')"></span>
                 </li>
 
-                <li class="rating-item">
-                    <span class="tag">For current 3 years</span>
-                    <span class="rating-num">4.9/5</span>
-                    <span class="rating-txt">Star Rating on <br />Google Reviews</span>
-                </li>
-
-                <li class="rating-item">
-                    <span class="tag">For current 5 years</span>
-                    <span class="rating-num">10K+</span>
-                    <span class="rating-txt">Happy Patients and <br />Still Growing</span>
-                </li>
-
-                <li class="rating-item">
-                    <span class="tag">For every dentist</span>
-                    <span class="rating-num">20+</span>
-                    <span class="rating-txt">Years of Experience in <br />Dental Excellence</span>
-                </li>
             </ul>
         </div>
     </section>
 </template>
 
-<script setup>  </script>
+<script setup> 
+    const ratings = [
+        {
+            tag: 'For All time we grow',
+            ratingNum: '98%',
+            ratingTxt: 'All Time patient \nsatisfaction rate'
+        },
+        {
+            tag: 'For current 3 years',
+            ratingNum: '4.9/5',
+            ratingTxt: 'Star Rating on \nGoogle Reviews'
+        },
+        {
+            tag: 'For current 5 years',
+            ratingNum: '10K+',
+            ratingTxt: 'Happy Patients and \nStill Growing'
+        },
+        {
+            tag: 'For every dentist',
+            ratingNum: '20+',
+            ratingTxt: 'Years of Experience in \nDental Excellence'
+        }
+    ]
+</script>
 
 <style scoped>
     @import url('../assets/styles/ratings.css');
